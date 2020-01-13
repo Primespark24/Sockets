@@ -1,0 +1,7 @@
+Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.csprojAssemblyReference.cache
+Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.csproj.CoreCompileInputs.cache
+Z:\CS-371-1\Sandbox\linqTest\linqTest\bin\Debug\linqTest.exe.config
+Z:\CS-371-1\Sandbox\linqTest\linqTest\bin\Debug\linqTest.exe
+Z:\CS-371-1\Sandbox\linqTest\linqTest\bin\Debug\linqTest.pdb
+Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.exe
+Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.pdb
