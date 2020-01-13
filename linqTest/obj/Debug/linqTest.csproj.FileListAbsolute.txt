@@ -5,3 +5,10 @@ Z:\CS-371-1\Sandbox\linqTest\linqTest\bin\Debug\linqTest.exe
 Z:\CS-371-1\Sandbox\linqTest\linqTest\bin\Debug\linqTest.pdb
 Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.exe
 Z:\CS-371-1\Sandbox\linqTest\linqTest\obj\Debug\linqTest.pdb
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\bin\Debug\linqTest.exe.config
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\bin\Debug\linqTest.exe
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\bin\Debug\linqTest.pdb
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.csprojAssemblyReference.cache
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.csproj.CoreCompileInputs.cache
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.exe
+C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.pdb

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
+using System.Runtime.InteropServices;
+using System.Runtime.Versioning;
 using System.Xml.Linq;
 
 namespace linqTest
@@ -17,55 +20,64 @@ namespace linqTest
             CrewMember mal = new CrewMember(
                     "Malcolm",
                     "Reynolds",
-                    "Captain"
-                );
+                    "Captain",
+                        24
+            );
 
             CrewMember zoe = new CrewMember(
                     "Zoe",
                     "Washburne",
-                    "First Mate"
-                );
+                    "First Mate",
+                    37
+            );
 
             CrewMember jayne = new CrewMember(
                     "Jayne",
                     "Cobb",
-                    "Public Relations"
+                    "Public Relations",
+                    20
                 );
 
             CrewMember wash = new CrewMember(
                     "Hoban",
                     "Washburne",
-                    "Pilot"
+                    "Pilot",
+                    18
                 );
 
             CrewMember inara = new CrewMember(
                     "Inara",
                     "Serra",
-                    "Ambassador"
+                    "Ambassador",
+                    47
                 );
 
             CrewMember book = new CrewMember(
                     "Derrial",
                     "Book",
-                    "Shepherd"
+                    "Shepherd",
+                    54
                 );
 
             CrewMember kaylee = new CrewMember(
                     "Kaywinnit",
                     "Frye",
-                    "Engineer"
+                    "Engineer",
+                    36
                 );
 
             CrewMember simon = new CrewMember(
                     "Simon",
                     "Tam",
-                    "Doctor"
+                    "Doctor",
+                    60
                 );
 
             CrewMember river = new CrewMember(
                     "River",
                     "Tam",
-                    "Psyker"
+                    "Psyker",
+                    40
                 );
 
             List<CrewMember> roster = new List<CrewMember> {
@@ -92,6 +104,32 @@ namespace linqTest
             foreach (XElement tam in tams) {
                 Console.WriteLine(tam);
             }
+
+            Console.WriteLine();
+
+            var Washburnes = serenity.Descendants("crewMember").Where(t => (string) t.Attribute("Lname") == "Washburne")
+                .OrderBy(t => (string)t.Attribute("fname")).Select(t => t);
+
+            foreach (var i in Washburnes)
+            {
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine();
+
+            var abM = from crew in serenity.Descendants("crewMember")
+                      where (((string)crew.Attribute("Lname"))[0] < 'M')
+                      select crew;
+
+
+            foreach (var j in abM)
+            {
+                Console.WriteLine(j);
+            }
+
+            var ageAverage = serenity.Descendants("crewMember").Where(g => (int)g.Attribute(age))
+
+            Console.ReadLine();
         }
     }
 }
