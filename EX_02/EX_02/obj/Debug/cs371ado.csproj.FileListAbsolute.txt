@@ -1,0 +1,15 @@
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\cs371ado.exe.config
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\cs371ado.exe
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\cs371ado.pdb
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\BouncyCastle.Crypto.dll
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\Google.Protobuf.dll
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\MySql.Data.dll
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\Renci.SshNet.dll
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\Ubiety.Dns.Core.dll
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\Google.Protobuf.xml
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\MySql.Data.xml
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\bin\Debug\Renci.SshNet.xml
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\obj\Debug\cs371ado.csprojAssemblyReference.cache
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\obj\Debug\cs371ado.csproj.CopyComplete
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\obj\Debug\cs371ado.exe
+F:\Source\cs371\cs371ado\cs371ado\cs371ado\obj\Debug\cs371ado.pdb
