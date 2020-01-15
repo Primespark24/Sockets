@@ -66,6 +66,9 @@ namespace linqTest
                 crewMemberNode.Add(new XAttribute(
                     "Rank", crewMember.Rank
                     ));
+                crewMemberNode.Add(new XAttribute(
+                    "Age", crewMember.Age
+                    ));
                 doc.Add(crewMemberNode);
             }
             xmlRoster = doc;

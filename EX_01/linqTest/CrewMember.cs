@@ -2,6 +2,8 @@
 using System.Dynamic;
 using System.Security.Cryptography.X509Certificates;
 
+//mostly written by jude
+
 namespace linqTest
 {
     class CrewMember : IDisposable
@@ -13,12 +15,12 @@ namespace linqTest
         public string Rank { get; set; }
         public int Age { get; set; }
 
-        public CrewMember(string fname = "none", string lname = "none", string position = "none", int age = 18)
+        public CrewMember(string fname = "none", string lname = "none", string position = "none", int age = 18, string rank = "none")
         {
             Fname = fname;
             Lname = lname;
             Position = position;
-            //Rank = rank;
+            Rank = rank;
             Age = age;
 
         }

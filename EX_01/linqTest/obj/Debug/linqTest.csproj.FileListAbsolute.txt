@@ -12,3 +12,9 @@ C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.csprojA
 C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.csproj.CoreCompileInputs.cache
 C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.exe
 C:\Users\mcaird22\Desktop\homework\homework4\linqTest\obj\Debug\linqTest.pdb
+C:\Users\bmartin22\homework4\EX_01\linqTest\bin\Debug\linqTest.exe.config
+C:\Users\bmartin22\homework4\EX_01\linqTest\bin\Debug\linqTest.exe
+C:\Users\bmartin22\homework4\EX_01\linqTest\bin\Debug\linqTest.pdb
+C:\Users\bmartin22\homework4\EX_01\linqTest\obj\Debug\linqTest.csprojAssemblyReference.cache
+C:\Users\bmartin22\homework4\EX_01\linqTest\obj\Debug\linqTest.exe
+C:\Users\bmartin22\homework4\EX_01\linqTest\obj\Debug\linqTest.pdb
