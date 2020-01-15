@@ -66,6 +66,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\FullRoster.cs" />
     <Compile Include="Models\Ship.cs" />
     <Compile Include="MySqlDb.cs" />
     <Compile Include="Program.cs" />

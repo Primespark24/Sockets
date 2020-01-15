@@ -13,13 +13,25 @@ namespace cs371entityframework
     {
         static void Main(string[] args)
         {
-            MySqlDb fleet = new MySqlDb("db4free.net", "cs371student", "whitworth", "cs371ado");
+            
+            MySqlDb fleet = new MySqlDb("cs1", "cs371student", "whitworth", "cs371ado");
             fleet.OpenConnection();
-            List<Ship> ships = fleet.GetAllShips();
-            foreach (Ship s in ships) {
-                Console.WriteLine("{0} has registration number {1}", s.Name, s.Registration);
+            List<FullRoster> FullyRolly = fleet.FullRosters();
+            fleet.OpenConnection();
+            List<FullRoster> PilotQualifier = fleet.PilotRosters();
+            
+            Console.WriteLine("Full Roster:\n");
+            foreach (FullRoster s in FullyRolly)
+            {
+                Console.WriteLine("First Name: {0} Last Name: {1} \nAge: {2} Role: {3} \nShip Name: {4} Ship Registration: {5}", s.Fname, s.Lname, s.Age, s.role, s.shipName, s.shipRegs);
+                Console.WriteLine("\n");
             }
-
+            Console.WriteLine("Pilot Qualified:\n");
+            foreach (FullRoster s in PilotQualifier)
+            {
+                Console.WriteLine("First Name: {0} Last Name: {1} \nAge: {2} Role: {3} \nShip Name: {4} Ship Registration: {5}", s.Fname, s.Lname, s.Age, s.role, s.shipName, s.shipRegs);
+                Console.WriteLine("\n");
+            }
         }
     }
 }
