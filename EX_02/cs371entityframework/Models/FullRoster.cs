@@ -9,6 +9,7 @@ namespace cs371entityframework.Models
 {
     public class FullRoster
     {
+        // GET and SET MEthods for FullRoster
         public string shipRegs { get; set; }
         public string shipName { get; set; }
         public string Fname { get; set; }

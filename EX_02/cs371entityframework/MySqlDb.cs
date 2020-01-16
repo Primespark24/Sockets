@@ -28,6 +28,7 @@ namespace cs371entityframework
         
         private MySqlConnection conn;
 
+        // Constructor
         public MySqlDb(string server, string user, string pw, string db) {
             var connStringBuilder = new MySqlConnectionStringBuilder
             {
@@ -38,18 +39,23 @@ namespace cs371entityframework
                 OldGuids = true
             };
 
+            // Making the conenction variable
             string connstr = connStringBuilder.ConnectionString;
             conn = new MySqlConnection(connstr);
         }
 
+        // Method to open connection of db
         public void OpenConnection() {
             conn.Open();
         }
 
+        // Method to close connection of db
         public void CloseConnection() {
             conn.Close();
         }
 
+        // Gathers infomration with query to get all ships id name and registration
+        // Adds them to a list<ship>
         public List<Ship> GetAllShips() {
             List<Ship> ships = new List<Ship>();
             string sql = "SELECT * FROM ships";
@@ -69,6 +75,8 @@ namespace cs371entityframework
             return ships;
         }
 
+        // Grabs the crew name, age, role, ship name and registration.
+        // Adds them to a list<Full Roster>
         public List<FullRoster> FullRosters()
         {
             List<FullRoster> fullyRolly = new List<FullRoster>();
@@ -95,6 +103,8 @@ namespace cs371entityframework
             return fullyRolly;
         }
 
+        // Grabs information of who can fly a plane
+        // Adds any crew member to a list of FullRoster
         public List<FullRoster> PilotRosters()
         {
             List<FullRoster> fullyRolly = new List<FullRoster>();
